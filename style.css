@@ -1,0 +1,64 @@
+body{
+    color: rgb(90, 114, 136);
+}
+
+.title {
+    font-size: 6rem;
+    padding: auto;
+
+
+}
+.jumbotron {
+    background-image: url("display.png");
+    background-size: 100% 100%;
+    -mob-background-size: 100% 100%;
+    -o-backgroung-size:100% 100%;
+    background-size: auto 100%;
+    height: 13%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.jumbotron {
+    background-color: rgb(245, 240, 239);
+}
+.jumbotron.button {
+    background-color: turquoise;
+}
+.flex-container {
+    display: inline-flexbox;
+    justify-content: left;
+    height: 200;
+    align-items: center;
+    flex-direction: row;
+    @media only screen and (max-width: 600px) {
+        padding: 50px;
+}
+.cotainer div{
+    border: 1px #ccc solid;
+    padding: 10px;
+    flex-direction: row;
+}
+.box-1 {
+    flex:2;
+    order: 2;
+}
+.box-2 {
+    flex: 1;
+    order: 1;
+}
+.box-3 {
+    flex: 1;
+    order: 1;
+}
+h4 {
+    background-color: rgb(128, 0, 0);
+}
+
+
+
+
+
+   
+
+
+   
